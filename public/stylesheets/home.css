@@ -4,7 +4,7 @@ html, body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
     color: #555;
-    font-family: '微软雅黑';
+    font-family: 'Montserrat';
 }
 body {
     background-color: #eee;
@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
-    background-color: #000;
+    background-color: rgb(38, 77, 130);
     color: #fff;
     font-size: 18px;
     line-height: 12vh;
@@ -29,14 +29,14 @@ header {
     box-sizing: border-box;
 }
 header span a {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 nav span {
     display: inline-block;
     margin-right: 23px;
 } 
 .container {
-    width: 68%;
+    width: 80%;
     height: 88vh;
     margin: 0 auto;
     background-color: #fafafa;
@@ -79,4 +79,28 @@ nav span {
 }
 .container li div:nth-child(1) {
     font-weight: 600;
+}
+
+.send{
+    width: 40%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center; 
+    
+
+
+}
+
+.position{
+
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 30px;
+
 }
