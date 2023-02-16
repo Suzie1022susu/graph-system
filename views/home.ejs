@@ -3,12 +3,15 @@
 <head>
   <meta charset="utf-8">
   <title>Comment System-Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/stylesheets/home.css">
 </head>
 
 <body>
   <header>
-    <span style="color:rgb(74, 74, 135)"><a href="/">Weclome to our comment system!，</a>
+    <span style="color:rgb(74, 74, 135)"><a href="/">Weclome to our graph system!，</a>
       <a href="/login">
         <%if(!data.name) {%>
           [didn't login in]
@@ -18,27 +21,21 @@
       </a>
     </span>
 
-    <nav>
-      <span class="send"><a href="/send">Post a comment <i class="fa fa-edit"></i></a></span>
-    </nav>
+    
   </header>
 
   
   <div class="container">
-    <h1>users comments(<%=data.arr.length%>)</h1>
-    <ul>
-      <%for(var i in data.arr) {%>
-        <li>
-          <div>
-            <%=data.arr[i].username%>
-          </div>：
-          <div>
-            <%=data.arr[i].content%>
-          </div>
-        </li>
-        <%}%>
-    </ul>
+    <h1>Choose graph you want</h1>
+    <div class = 'position'>
+    <nav>
+      
+      <button class="send"><a href="/send">Pie Chart </a></button>
+      
+    </nav>
   </div>
+
+  
 </body>
 
 </html>
