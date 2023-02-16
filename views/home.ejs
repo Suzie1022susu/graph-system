@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Comment System-Home</title>
+  <link rel="stylesheet" href="/stylesheets/home.css">
+</head>
+
+<body>
+  <header>
+    <span style="color:rgb(74, 74, 135)"><a href="/">Weclome to our comment system!，</a>
+      <a href="/login">
+        <%if(!data.name) {%>
+          [didn't login in]
+          <%} else {%>
+            <%=data.name%>
+              <%}%>
+      </a>
+    </span>
+
+    <nav>
+      <span class="send"><a href="/send">Post a comment <i class="fa fa-edit"></i></a></span>
+    </nav>
+  </header>
+
+  
+  <div class="container">
+    <h1>users comments(<%=data.arr.length%>)</h1>
+    <ul>
+      <%for(var i in data.arr) {%>
+        <li>
+          <div>
+            <%=data.arr[i].username%>
+          </div>：
+          <div>
+            <%=data.arr[i].content%>
+          </div>
+        </li>
+        <%}%>
+    </ul>
+  </div>
+</body>
+
+</html>
