@@ -22,8 +22,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // 静态资源
 
-app.use('/', index);// 当请求为localhost:3000/时用index.js路由
-app.use('/data', data);// 当请求为localhost:3000/data时用路由data.js 
+app.use('/', index);
+app.use('/data', data);
 
 // 错误处理要放在最后
 // catch 404 and forward to error handler

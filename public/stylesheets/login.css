@@ -28,7 +28,7 @@ label input {
 .btn {
     width: 25%;
     height: 35px;
-    background-color: #000;
+    background-color: rgb(49, 83, 135);
     color: #fff;
     font-size: 16px;
     border-radius: 5px;

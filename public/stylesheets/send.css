@@ -3,11 +3,13 @@
 .container {
     padding-top: 20px;
 }
+
 .form {
     width: 65%;
     height: 70%;
     margin: 0 auto;
 }
+
 .text {
     width: 90%;
     height: 80%;
@@ -16,10 +18,11 @@
     margin: 0 auto;
     border-radius: 6px;
     font-size: 16px;
-    font-family: '微软雅黑';
+    font-family: 'Montserrat';
     padding: 10px;
     box-sizing: border-box;
 }
+
 .btn {
     width: 90%;
     height: 40px;
@@ -30,9 +33,47 @@
     font-size: 18px;
     border-radius: 6px;
     cursor: pointer;
-    background-color: #000;
+    background-color: #045a8d;
     color: #fafafa;
-} 
-.text:focus, .btn:focus {
+}
+
+.text:focus,
+.btn:focus {
     outline: none;
+}
+
+.title {
+    font-size: 2em;
+    fill: #5b5f5f;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text_anote {
+    font-size: 10px;
+    fill: #010506;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.summaryTextTitle {
+    font-size: 1.5em;
+    fill: #393b3b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.summaryText {
+    font-size: 1.2em;
+    fill: #393b3b;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.uptext {
+    font-size: 1.2em;
+    fill: #393b3b;
+    font-family: 'Montserrat', sans-serif;
+
+
 }

@@ -8,7 +8,7 @@ router.post('/write', function(req, res, next) {
     if(!req.cookies.username) {
         return res.send({
           status: 2,
-          info: 'Please login first！'
+          info: '请先登录！'
         });
     }
 
@@ -21,30 +21,19 @@ router.post('/write', function(req, res, next) {
     if (err) {
       return res.send({
         status:0,
-        info: 'Failed to read comment data'
+        info: '读取评论数据失败'
       });
     }
 
     var arr = JSON.parse(data.toString());  // 返回数据
-    arr.splice(0, 0, obj); // 插入文件
-    var newData = JSON.stringify(arr);
-
-    fs.writeFile(path+'data.json', newData, function(err){
-        if(err){
-            return res.send({
-                status:0,
-                info: 'Failed to add comment data'
-            });
-        }
-        return res.send({
-            status:1,
-            info: obj
-        });
-    }); 
+    
+    console.log(arr);
+    return res.send({
+      status:1,
+      info:arr
+    })
   });
 });
-
-
 
 router.get('/login', function(req, res, next) {
   var name = req.param('name');
@@ -54,28 +43,31 @@ router.get('/login', function(req, res, next) {
     if (err) {
       return res.send({
         status:0,
-        info: 'Failed'
+        info: '读取用户数据失败'
       });
     }
-    var arr = JSON.parse(data.toString());  //return data
+    var arr = JSON.parse(data.toString());  // 返回数据
     for(var i in arr) {
       if(arr[i].username == name) {
         if(arr[i].psw == psw) {
           res.cookie('username', name);
+          console.log(arr);
           return res.send({
-            status: 1
+            status: 11,
+            info:arr
+
           });
         } else {
           return res.send({
             status: 0,
-            info: 'Password wrong！'
+            info: '密码错误haha，请重试！'
           });
         } 
       }
     }
     return res.send({
       status: 0,
-      info: 'no this user'
+      info: '没有该用户！'
     });
   }); 
 }); 
@@ -90,7 +82,7 @@ router.post('/register', function(req, res, next) {
     if (err) {
       return res.send({
         status:0,
-        info: 'Failed to read user data'
+        info: '读取用户数据失败'
       });
     }
 
@@ -102,7 +94,7 @@ router.post('/register', function(req, res, next) {
         if(err){
             return res.send({
                 status:0,
-                info: 'Failed to add user data'
+                info: '添加用户数据失败'
             });
         }
         return res.send({

@@ -1,65 +1,147 @@
 [
     {
-      "agent": "Brimstone",
-      "round": 1,
-      "map": "Bind",
-      "credited_used": 1080,
-      "credit_gathered": 1890
+        "username": "ss",
+        "agent": "Brimstone",
+        "round": 1,
+        "map": "Bind",
+        "credited_used": 1080,
+        "credit_gathered": 1890
     },
     {
-      "agent": "Brimstone",
-      "round": 2,
-      "map": "Bind",
-      "credited_used": 7030,
-      "credit_gathered": 2234
+        "username": "ss",
+        "agent": "Brimstone",
+        "round": 2,
+        "map": "Bind",
+        "credited_used": 7030,
+        "credit_gathered": 2234
     },
     {
-      "agent": "Brimstone",
-      "round": 3,
-      "map": "Bind",
-      "credited_used": 5800,
-      "credit_gathered": 4892
+        "username": "ss",
+        "agent": "Brimstone",
+        "round": 3,
+        "map": "Bind",
+        "credited_used": 5800,
+        "credit_gathered": 4892
     },
     {
-      "agent": "Brimstone",
-      "round": 4,
-      "map": "Bind",
-      "credited_used": 4264,
-      "credit_gathered": 300
+        "username": "ss",
+        "agent": "Brimstone",
+        "round": 4,
+        "map": "Bind",
+        "credited_used": 4264,
+        "credit_gathered": 300
     },
     {
-      "agent": "Brimstone",
-      "round": 5,
-      "map": "Bind",
-      "credited_used": 560,
-      "credit_gathered": 4090
+        "username": "ss",
+        "agent": "Brimstone",
+        "round": 5,
+        "map": "Bind",
+        "credited_used": 560,
+        "credit_gathered": 4090
     },
     {
-      "agent": "Brimstone",
-      "round": 6,
-      "map": "Bind",
-      "credited_used": 3003,
-      "credit_gathered": 5090
+        "username": "ss",
+        "agent": "Brimstone",
+        "round": 6,
+        "map": "Bind",
+        "credited_used": 3003,
+        "credit_gathered": 5090
     },
     {
-      "agent": "Brimstone",
-      "round": 7,
-      "map": "Bind",
-      "credited_used": 5000,
-      "credit_gathered": 1290
+        "username": "ss",
+        "agent": "Brimstone",
+        "round": 7,
+        "map": "Bind",
+        "credited_used": 5000,
+        "credit_gathered": 1290
     },
     {
-      "agent": "Brimstone",
-      "round": 8,
-      "map": "Bind",
-      "credited_used": 1789,
-      "credit_gathered": 2390
+        "username": "ss",
+        "agent": "Brimstone",
+        "round": 8,
+        "map": "Bind",
+        "credited_used": 1789,
+        "credit_gathered": 2390
     },
     {
-      "agent": "Brimstone",
-      "round": 9,
-      "map": "Bind",
-      "credited_used": 5337,
-      "credit_gathered": 200
+        "username": "ss",
+        "agent": "Brimstone",
+        "round": 9,
+        "map": "Bind",
+        "credited_used": 5337,
+        "credit_gathered": 200
+    },
+
+    {
+        "username": "King",
+        "agent": "Brimstone",
+        "round": 1,
+        "map": "Agent",
+        "credited_used": 4605,
+        "credit_gathered": 1890
+    },
+    {
+        "username": "King",
+        "agent": "Brimstone",
+        "round": 2,
+        "map": "Agent",
+        "credited_used": 7030,
+        "credit_gathered": 2234
+    },
+    {
+        "username": "King",
+        "agent": "Brimstone",
+        "round": 3,
+        "map": "Agent",
+        "credited_used": 3800,
+        "credit_gathered": 4892
+    },
+    {
+        "username": "King",
+        "agent": "Brimstone",
+        "round": 4,
+        "map": "Agent",
+        "credited_used": 1264,
+        "credit_gathered": 300
+    },
+    {
+        "username": "King",
+        "agent": "Brimstone",
+        "round": 5,
+        "map": "Agent",
+        "credited_used": 560,
+        "credit_gathered": 4090
+    },
+    {
+        "username": "King",
+        "agent": "Brimstone",
+        "round": 6,
+        "map": "Agent",
+        "credited_used": 5003,
+        "credit_gathered": 5090
+    },
+    {
+        "username": "King",
+        "agent": "Brimstone",
+        "round": 7,
+        "map": "Agent",
+        "credited_used": 9000,
+        "credit_gathered": 1290
+    },
+    {
+        "username": "King",
+        "agent": "Brimstone",
+        "round": 8,
+        "map": "Agent",
+        "credited_used": 2789,
+        "credit_gathered": 2390
+    },
+    {
+        "username": "King",
+        "agent": "Brimstone",
+        "round": 9,
+        "map": "Agent",
+        "credited_used": 337,
+        "credit_gathered": 200
     }
-  ]
+]

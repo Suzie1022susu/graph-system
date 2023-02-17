@@ -3,7 +3,7 @@
 html, body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
-    color: #555;
+    color: rgb(58, 55, 55);
     font-family: 'Montserrat';
 }
 body {
@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
-    background-color: rgb(38, 77, 130);
+    background-color: #045a8d;
     color: #fff;
     font-size: 18px;
     line-height: 12vh;
@@ -29,14 +29,14 @@ header {
     box-sizing: border-box;
 }
 header span a {
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 nav span {
     display: inline-block;
     margin-right: 23px;
 } 
 .container {
-    width: 80%;
+    width: 88%;
     height: 88vh;
     margin: 0 auto;
     background-color: #fafafa;
@@ -91,16 +91,21 @@ nav span {
     border: none;
     cursor: pointer;
     text-align: center; 
-    
-
 
 }
-
-.position{
+.position_graph{
 
     margin: 0 auto;
     box-sizing: border-box;
     padding-top: 100px;
+    padding-left: 30px;
+
+}
+.position_comment{
+
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 150px;
     padding-left: 30px;
 
 }

@@ -2,16 +2,18 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Comment System-Home</title>
+  <title>Graph System -- main page</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <link rel="stylesheet" href="/stylesheets/home.css">
 </head>
 
 <body>
   <header>
-    <span style="color:rgb(74, 74, 135)"><a href="/">Weclome to our graph system!，</a>
+    <span><a href="/">Welcome to our graph system! </a>
       <a href="/login">
         <%if(!data.name) {%>
           [didn't login in]
@@ -21,21 +23,23 @@
       </a>
     </span>
 
-    
   </header>
-
-  
   <div class="container">
-    <h1>Choose graph you want</h1>
-    <div class = 'position'>
-    <nav>
-      
-      <button class="send"><a href="/send">Pie Chart </a></button>
-      
-    </nav>
-  </div>
+    <h1>Choose where to go!</h1>
+    <div class='position_graph'>
+      <nav>
+        <button class="send"><a href="/send">Graph <i class="fas fa-gamepad"></i></a></button>
+      </nav>
+    </div>
 
-  
+    <!-- maybe could add comment system in the future -->
+    <div class='position_comment'>
+      <nav>
+        <button class="send"><a href="/comment">share <i class="fas fa-comment-dots"></i></a></button>
+      </nav>
+    </div>
+
+  </div>
 </body>
 
 </html>
